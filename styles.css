@@ -135,3 +135,20 @@ footer {
     margin: 15px;
     
 }
+.caja {
+
+    /*width: 50%;  Ancho del contenido de la caja */
+    height: 150px; /* Altura del contenido de la caja */
+    padding: 50px; /* Espacio interno de la caja */
+    margin: 15px; /* Espacio externo entre la caja y otros elementos */
+    border: 3px solid #007BFF; /* Borde azul de 3px */
+    background-color: #e3f2fd; /* Color de fondo azul claro */
+    border-radius: 10px; /* Esquinas redondeadas del borde */
+  }
+
+  /* Efecto de pseudoclase hover */
+  .caja:hover {
+    background-color: #90caf9; /* Cambia el color de fondo al pasar el mouse por encima */
+    border-color: #b39b00; /* Cambia el color del borde en hover */
+    border-radius: 20px;
+  }

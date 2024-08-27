@@ -1,0 +1,137 @@
+/* Importación de fuente */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f0a500;
+}
+
+#hero {
+    background: url('desarrollador.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #f0a500;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d48806;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about, #contact {
+    background-color: #fff;
+}
+
+#projects {
+    background-color: #f4f4f4;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    background-color: #fff;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.description {
+    color: #ffffff; /* Color del texto */
+    line-height: 300%; /* Espaciado entre líneas */
+    padding: 50px; /* Relleno alrededor del texto */    
+    background: linear-gradient(180deg,rgb(149, 114, 255) 0%, rgb(3, 27, 77) 3%, rgb(121, 143, 200) 95%, rgb(63, 63, 64) 100%);
+    border-radius: 24px 24px 24px 24px;/* Bordes redondeados */
+    border: 1px groove #f7f7f7;/* Borde con sombra */
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,1),inset 0px 0px 7px 1px rgb(230, 228, 228);/* Sombra */
+    margin: 15px;
+    
+}

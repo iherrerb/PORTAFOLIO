@@ -47,8 +47,8 @@ header nav {
 }
 
 #hero {
-    background: url('desarrollador.jpeg') no-repeat center center/cover;
-    height: 100vh;
+    background: url('desarrolloWeb.jpeg') no-repeat center center/cover;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,6 +98,19 @@ header nav {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.project1 {
+    background-color: #fff;
+    margin: 15px;
+    /*padding: 20px;*/
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 400px;
+    transition: transform 0.3s;
+    font-style: italic;
+}
+
 
 .project {
     background-color: #fff;
@@ -152,11 +165,13 @@ footer {
     border-color: #b39b00; /* Cambia el color del borde en hover */
     border-radius: 20px;
   }
-  /*.imagen:hover{
-    border-radius:50%;
-    -webkit-border-radius:50%;
-    box-shadow: 0px 0px 15px 15px #ec731e;
-    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+
+
+  .imagen:hover{
+    border-radius:20%;
+    -webkit-border-radius:10%;
+    box-shadow: 0px 0px 15px 15px #e6e6eb;
+    -webkit-box-shadow: 0px 0px 15px 15px hsl(218, 31%, 95%);
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     }

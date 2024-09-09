@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iherrerb</title>
+    <title>IvanHerrera</title>
     <link rel="stylesheet" href="styles.css">
-    <!--se utiliza esta api de google para descragar la fuente de letra poppins-->
+    <!--se utiliza esta api de google para descargar la fuente de letra poppins-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <h1 class="logo">Ivan Dario Herrera Betancourt</h1><!---->
+            <img class="imagen" src="ivanH.png" alt="Ivancho">
+            <h1 class="logo">Ivan Dario Herrera Betancourt</h1>
             <ul class="nav-links">
                 <li><a href="#about">Sobre Mí</a></li>
                 <li><a href="#projects">Proyectos</a></li>
@@ -29,25 +30,44 @@
 
     <section id="about" class="section">
         <h2>Sobre Mí</h2>
-        <img class="imagen" src="ivan2.png" alt="Ivancho">
-        <p class="caja">¡Hola! Soy Ivan Dario Herrera Betancourt, un desarrollador de software apasionado por la tecnología y la innovación. Con varios años de experiencia en la creación de soluciones tecnológicas, me especializo en el desarrollo de aplicaciones web y móviles, combinando un enfoque creativo con habilidades técnicas sólidas.
-            Mi objetivo es diseñar y construir aplicaciones que no solo funcionen bien, sino que también ofrezcan una experiencia de usuario excepcional. Me esfuerzo por mantenerme actualizado con las últimas tendencias y tecnologías, lo que me permite abordar problemas complejos de manera eficiente y eficaz.
-            He trabajado en una variedad de proyectos, desde aplicaciones de comercio electrónico hasta herramientas de productividad, siempre con un enfoque en la calidad del código y la satisfacción del cliente. Me considero un aprendiz constante, siempre buscando nuevas formas de mejorar y expandir mi conjunto de habilidades.
-            Si estás buscando a alguien que pueda transformar ideas en productos digitales impactantes, no dudes en ponerte en contacto conmigo. Estoy siempre emocionado por colaborar en proyectos desafiantes que tengan el potencial de marcar la diferencia.
-        </p>
+    <div class="projects-container">
+        <div class="project1">
+            <h3>AREAS:</h3>
+            <ol>
+                <li>Desarrollo</li>
+                <li>Diseño</li>
+                <li>Arquitectura de Software</li>
+                <li>Asesoria Proyectos de Software</li>
+            </ol>
+        </div>
+        <div class="project1">
+            <h3>Habilidades técnicas:</h3>
+            <ol>
+                <li>Lenguajes de programación: Dominio de lenguajes como Java, Python, JavaScript, C#, etc., según el área de desarrollo (web, móvil, backend).</li>
+                <li>Estructuras de datos y algoritmos: Conocimiento profundo de estructuras como listas, árboles, grafos, y algoritmos de búsqueda, ordenamiento, entre otros.</li>
+                <li>Arquitectura de Software</li>
+                <li>Asesoria Proyectos de Software</li>
+            </ol>
+        </div>
+    </div>
     </section>
 
     <section id="projects" class="section">
         <h2>Proyectos</h2>
         <div class="projects-container">
             <div class="project">
-                <img src="huella.jpg" alt="Proyecto 1">
                 <h3>Optimización Algoritmo de autenticación</h3>
+                <img src="huella.jpg" alt="Proyecto 1">
                 <p>Optimización de algoritmo de autenticación de personas por medio de huella dactilar, proyecto de Grado de investigación</p>
             </div>
             <div class="project">
-                <img src="desarrollo.jpg" alt="Proyecto 2">
                 <h3>Aplicación Web Pyme</h3>
+                <img src="desarrollo.jpg" alt="Proyecto 2">
+                <p>Aplicación web para la gestion de inventarios de microempresa de calzado de Bucaramanga</p>
+            </div>
+            <div class="project">
+                <h3>Aplicación Web Pyme</h3>
+                <img src="desarrollo.jpg" alt="Proyecto 2">
                 <p>Aplicación web para la gestion de inventarios de microempresa de calzado de Bucaramanga</p>
             </div>
             <!-- Añade más proyectos aquí -->
@@ -57,10 +77,7 @@
     <section id="contact" class="section">
         <h2>Contacto</h2>
         <p>Puedes contactarme a través de los siguientes medios:</p>
-        <ul class="contact-info">
-            <li>Email: <a href="mailto:email@example.com">ivancho.herrera@gmail.com</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">https://www.linkedin.com/in/ivandarioherrerabetancourt-se</a></li>
-        </ul>
+        <a href="mailto:email@example.com"><img src="gmail.png" alt="Gmail"></a><a href="https://www.linkedin.com/in/tu-perfil" target="_blank"><img src="linked.png" alt="LinkedIn"></a>        </ul>
     </section>
 
     <footer>
